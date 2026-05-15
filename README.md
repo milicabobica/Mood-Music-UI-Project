@@ -111,14 +111,56 @@ The application was designed as an AI-assisted recommendation system rather than
 # Project Structure
 
 ```text
-src/
- ├── components/
- ├── services/
- ├── styles/
- ├── App.js
- └── main.js
+Mood-Music-UI-Project/
+│
+├── backend/
+│   ├── node_modules/
+│   ├── index.py
+│   ├── package-lock.json
+│   └── package.json
+│
+├── frontend/
+│   ├── index.py
+│   ├── package-lock.json
+│   └── package.json
+│
+├── .gitignore
+└── README.md
 ```
 
+## Structure Overview
+
+### backend/
+Contains the backend logic responsible for:
+- AI API communication
+- Request handling
+- Playlist generation logic
+- Response formatting
+
+### frontend/
+Contains the frontend application and UI logic:
+- User mood input
+- Playlist display
+- Responsive interface
+- Frontend interaction handling
+
+### node_modules/
+Automatically generated project dependencies managed through npm.
+
+### index.py
+Main application entry point for backend/frontend logic.
+
+### package.json
+Contains project metadata, dependencies, and scripts.
+
+### package-lock.json
+Locks dependency versions for consistent installations.
+
+### .gitignore
+Specifies files and folders ignored by Git.
+
+### README.md
+Project documentation and setup instructions.
 
 ---
 
