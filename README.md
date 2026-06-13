@@ -21,11 +21,10 @@ The project was created to explore:
 - Modern UI development
 
 ### Example Prompts
-- “Music for debugging at 2 AM”
-- “Calm rainy coding session”
-- “Deep focus for studying”
-- “Energetic gym playlist”
-- “Relaxed late-night vibes”
+- “sadness”
+- “calm”
+- “energetic”
+- “happy”
 
 ---
 
@@ -120,9 +119,12 @@ Mood-Music-UI-Project/
 │   └── package.json
 │
 ├── frontend/
-│   ├── index.py
+│   ├── images/
+│   ├── index.html
+│   ├── index.js
 │   ├── package-lock.json
-│   └── package.json
+│   ├── package.json
+│   └── style.css
 │
 ├── .gitignore
 └── README.md
